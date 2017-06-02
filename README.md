@@ -32,12 +32,12 @@ for technique detail; Error (d) is the difference between Gram matrix from input
 a batch from 15K input samples in every epoch as comparing target), please refer to [Style Transfer](http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Gatys_Image_Style_Transfer_CVPR_2016_paper.html)
 for techique detail.
 
-## Pre-request for Running the code
+## Prerequisites for Running the code
 ### Package
 - Cuda >= 6.5
-- Python >= 2.7
+- Python = 3.5
 - Tensorflow >= 1.0
-- Keras
+- Keras latest version
 - h5py
 
 ### Download
