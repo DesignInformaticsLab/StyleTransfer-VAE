@@ -3,21 +3,21 @@
 ## Purpose
 The proposed VAE + Style Transfer + Supervised Learning Network is trained to help us to predict material properties of interest. Since standard CNN network(VGG or Alex Net) could be used to predict material properties of interest such as Young's Module, Diffusion coefficient with high accuracy in ordinary value, but low accuracy at some extreme values. The problem is that the material microstructures with extreme properties are always hard to generate through traditional method, which makes the training data short of these extreme cases. The network could help us generate these types of samples that could be used to address the issue gradually. 
 
-![](image/Recon.JPG)
+![](images/Recon.JPG)
 
-![](image/Random.JPG)
+![](images/Random.JPG)
 
-![](image/Change.JPG)
+![](images/Change.JPG)
 
 ## Model
 We set up a 16-layer VAE network + a 4-layer Style Transfer network.
 
-![](image/Model.JPG)
+![](images/Model.JPG)
 
 ### detail parameter
 - VAE:
 
-![](image/VAE.JPG)
+![](images/VAE.JPG)
 
 - Style Transfer: 
 
